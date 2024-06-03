@@ -1,0 +1,127 @@
+
+**** Build of configuration Debug for project MCU2 ****
+
+make all 
+'Building file: ../DC_Motor.c'
+'Invoking: AVR Compiler'
+In file included from ../GPIO.h:14,
+                 from ../DC_Motor.c:7:
+../Micro_Config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../Micro_Config.h:22,
+                 from ../GPIO.h:14,
+                 from ../DC_Motor.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+In file included from ../GPIO.h:14,
+                 from ../GPIO.c:12:
+../Micro_Config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../Micro_Config.h:22,
+                 from ../GPIO.h:14,
+                 from ../GPIO.c:12:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+In file included from ../I2C.h:14,
+                 from ../I2C.c:9:
+../micro_config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../micro_config.h:22,
+                 from ../I2C.h:14,
+                 from ../I2C.c:9:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+In file included from ../LCD.h:12,
+                 from ../LCD.c:7:
+../micro_config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../micro_config.h:22,
+                 from ../LCD.h:12,
+                 from ../LCD.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../LCD.c: In function 'LCD_intergerToString':
+../LCD.c:128: warning: implicit declaration of function 'itoa'
+../LCD.c:129: warning: passing argument 1 of 'LCD_displayString' from incompatible pointer type
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+In file included from ../Timer.h:11,
+                 from ../Timer.c:7:
+../micro_config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../micro_config.h:22,
+                 from ../Timer.h:11,
+                 from ../Timer.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../Timer.c: In function 'Timer0_SetCallBack':
+../Timer.c:14: warning: function return types not compatible due to 'volatile'
+../Timer.c: In function 'Timer1_SetCallBack':
+../Timer.c:18: warning: function return types not compatible due to 'volatile'
+../Timer.c: In function 'Timer2_SetCallBack':
+../Timer.c:22: warning: function return types not compatible due to 'volatile'
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+In file included from ../UART.h:12,
+                 from ../UART.c:8:
+../micro_config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../micro_config.h:22,
+                 from ../UART.h:12,
+                 from ../UART.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+In file included from ../I2C.h:14,
+                 from ../external_EEPROM.c:7:
+../micro_config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../micro_config.h:22,
+                 from ../I2C.h:14,
+                 from ../external_EEPROM.c:7:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+In file included from ../GPIO.h:14,
+                 from ../main.c:8:
+../Micro_Config.h:17:1: warning: "F_CPU" redefined
+<command-line>: warning: this is the location of the previous definition
+In file included from ../Micro_Config.h:22,
+                 from ../GPIO.h:14,
+                 from ../main.c:8:
+c:/winavr-20100110/lib/gcc/../../avr/include/util/delay.h:90:3: warning: #warning "Compiler optimizations disabled; functions from <util/delay.h> won't work as designed"
+../main.c: In function 'storeNewPassword':
+../main.c:144: warning: passing argument 1 of 'UART_recieveString' discards qualifiers from pointer target type
+../main.c:158: warning: passing argument 2 of 'EEPROM_readByte' from incompatible pointer type
+../main.c: In function 'checkStoredPassword':
+../main.c:167: warning: passing argument 1 of 'UART_recieveString' discards qualifiers from pointer target type
+../main.c:175: warning: passing argument 2 of 'EEPROM_readByte' from incompatible pointer type
+../main.c:169: warning: unused variable 'flag'
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+The process tried to write to a nonexistent pipe.
+make: write error
