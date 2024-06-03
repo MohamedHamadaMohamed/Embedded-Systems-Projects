@@ -1,0 +1,333 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PICREGULAR PICMID ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F877A ]
+[d frameptr 0 ]
+"11 F:\solar cell project\code\Solar energy measurement.X\ADC.c
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+"19
+[v _ADC_readChannel ADC_readChannel `(us  1 e 2 0 ]
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\pic\__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"12 F:\solar cell project\code\Solar energy measurement.X\LCD.c
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+"33
+[v _LCD_sendCommand LCD_sendCommand `(v  1 e 1 0 ]
+"66
+[v _LCD_displayCharacter LCD_displayCharacter `(v  1 e 1 0 ]
+"102
+[v _LCD_displayString LCD_displayString `(v  1 e 1 0 ]
+"111
+[v _LCD_goToRowColum LCD_goToRowColum `(v  1 e 1 0 ]
+"124
+[v _displayStringRowColom displayStringRowColom `(v  1 e 1 0 ]
+"129
+[v _LCD_intergerToString LCD_intergerToString `(v  1 e 1 0 ]
+"12 F:\solar cell project\code\Solar energy measurement.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"216 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\include\pic16f877a.h
+[v _PORTB PORTB `VEuc  1 e 1 @6 ]
+"1152
+[v _ADRESH ADRESH `VEuc  1 e 1 @30 ]
+"1159
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @31 ]
+[s S38 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 GO_nDONE 1 0 :1:2 
+`uc 1 CHS 1 0 :3:3 
+`uc 1 ADCS 1 0 :2:6 
+]
+"1190
+[s S44 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO 1 0 :1:2 
+`uc 1 CHS0 1 0 :1:3 
+`uc 1 CHS1 1 0 :1:4 
+`uc 1 CHS2 1 0 :1:5 
+`uc 1 ADCS0 1 0 :1:6 
+`uc 1 ADCS1 1 0 :1:7 
+]
+[s S52 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nDONE 1 0 :1:2 
+]
+[s S55 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 GO_DONE 1 0 :1:2 
+]
+[u S58 . 1 `S38 1 . 1 0 `S44 1 . 1 0 `S52 1 . 1 0 `S55 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES58  1 e 1 @31 ]
+"1375
+[v _TRISB TRISB `VEuc  1 e 1 @134 ]
+"2222
+[v _ADRESL ADRESL `VEuc  1 e 1 @158 ]
+"2229
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @159 ]
+"2383
+[v _ADCS0 ADCS0 `VEb  1 e 0 @254 ]
+"2386
+[v _ADCS1 ADCS1 `VEb  1 e 0 @255 ]
+"2389
+[v _ADCS2 ADCS2 `VEb  1 e 0 @1278 ]
+"2404
+[v _ADON ADON `VEb  1 e 0 @248 ]
+"2482
+[v _CHS0 CHS0 `VEb  1 e 0 @251 ]
+"2485
+[v _CHS1 CHS1 `VEb  1 e 0 @252 ]
+"2488
+[v _CHS2 CHS2 `VEb  1 e 0 @253 ]
+"2575
+[v _GO_DONE GO_DONE `VEb  1 e 0 @250 ]
+"12 F:\solar cell project\code\Solar energy measurement.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"16
+[v main@current current `us  1 a 2 77 ]
+"15
+[v main@volt volt `us  1 a 2 75 ]
+"32
+} 0
+"124 F:\solar cell project\code\Solar energy measurement.X\LCD.c
+[v _displayStringRowColom displayStringRowColom `(v  1 e 1 0 ]
+{
+[v displayStringRowColom@row row `uc  1 a 1 wreg ]
+[v displayStringRowColom@row row `uc  1 a 1 wreg ]
+[v displayStringRowColom@col col `uc  1 p 1 7 ]
+[v displayStringRowColom@data data `*.24uc  1 p 1 8 ]
+"126
+[v displayStringRowColom@row row `uc  1 a 1 10 ]
+"128
+} 0
+"111
+[v _LCD_goToRowColum LCD_goToRowColum `(v  1 e 1 0 ]
+{
+[v LCD_goToRowColum@row row `uc  1 a 1 wreg ]
+"113
+[v LCD_goToRowColum@address address `uc  1 a 1 6 ]
+"111
+[v LCD_goToRowColum@row row `uc  1 a 1 wreg ]
+[v LCD_goToRowColum@col col `uc  1 p 1 2 ]
+[v LCD_goToRowColum@row row `uc  1 a 1 5 ]
+"123
+} 0
+"10 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+{
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+"13
+[v ___xxtofl@arg arg `ul  1 a 4 6 ]
+"12
+[v ___xxtofl@exp exp `uc  1 a 1 5 ]
+"10
+[v ___xxtofl@sign sign `uc  1 a 1 wreg ]
+[v ___xxtofl@val val `l  1 p 4 7 ]
+"15
+[v ___xxtofl@sign sign `uc  1 a 1 4 ]
+"44
+} 0
+"15 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul16.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+{
+"17
+[v ___wmul@product product `ui  1 a 2 11 ]
+"15
+[v ___wmul@multiplier multiplier `ui  1 p 2 7 ]
+[v ___wmul@multiplicand multiplicand `ui  1 p 2 9 ]
+"53
+} 0
+"43 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\fltol.c
+[v ___fltol __fltol `(l  1 e 4 0 ]
+{
+"45
+[v ___fltol@exp1 exp1 `uc  1 a 1 12 ]
+[v ___fltol@sign1 sign1 `uc  1 a 1 11 ]
+"43
+[v ___fltol@f1 f1 `d  1 p 4 62 ]
+"70
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+{
+[s S448 . 4 `uc 1 a 1 0 `uc 1 b 1 1 `uc 1 c 1 2 `uc 1 d 1 3 ]
+"13
+[s S453 . 4 `i 1 wordA 2 0 `i 1 wordB 2 2 ]
+[u S456 . 4 `l 1 i 4 0 `d 1 f 4 0 `S448 1 fAsBytes 4 0 `S453 1 fAsWords 4 0 ]
+[v ___flmul@prod prod `S456  1 a 4 30 ]
+"12
+[v ___flmul@grs grs `ul  1 a 4 24 ]
+[s S525 . 2 `uc 1 a 1 0 `uc 1 b 1 1 ]
+"14
+[u S528 . 2 `i 1 i 2 0 `ui 1 n 2 0 `S525 1 nAsBytes 2 0 ]
+[v ___flmul@temp temp `S528  1 a 2 34 ]
+"10
+[v ___flmul@bexp bexp `uc  1 a 1 29 ]
+"11
+[v ___flmul@aexp aexp `uc  1 a 1 28 ]
+"9
+[v ___flmul@sign sign `uc  1 a 1 23 ]
+"8
+[v ___flmul@b b `d  1 p 4 10 ]
+[v ___flmul@a a `d  1 p 4 14 ]
+"205
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+{
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+"6
+[v __Umul8_16@word_mpld word_mpld `ui  1 a 2 6 ]
+"5
+[v __Umul8_16@product product `ui  1 a 2 4 ]
+"4
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 wreg ]
+[v __Umul8_16@multiplicand multiplicand `uc  1 p 1 0 ]
+[v __Umul8_16@multiplier multiplier `uc  1 a 1 8 ]
+"60
+} 0
+"8 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+{
+"21
+[v ___fldiv@grs grs `ul  1 a 4 56 ]
+"22
+[v ___fldiv@rem rem `ul  1 a 4 49 ]
+"20
+[v ___fldiv@new_exp new_exp `i  1 a 2 54 ]
+"19
+[v ___fldiv@aexp aexp `uc  1 a 1 61 ]
+"18
+[v ___fldiv@bexp bexp `uc  1 a 1 60 ]
+"16
+[v ___fldiv@sign sign `uc  1 a 1 53 ]
+"8
+[v ___fldiv@a a `d  1 p 4 36 ]
+[v ___fldiv@b b `d  1 p 4 40 ]
+"185
+} 0
+"129 F:\solar cell project\code\Solar energy measurement.X\LCD.c
+[v _LCD_intergerToString LCD_intergerToString `(v  1 e 1 0 ]
+{
+"131
+[v LCD_intergerToString@buffer buffer `[16]uc  1 a 16 25 ]
+"129
+[v LCD_intergerToString@data data `us  1 p 2 23 ]
+"135
+} 0
+"4 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\itoa.c
+[v _itoa itoa `(*.4uc  1 e 1 0 ]
+{
+[v itoa@buf buf `*.4uc  1 a 1 wreg ]
+[v itoa@buf buf `*.4uc  1 a 1 wreg ]
+[v itoa@val val `i  1 p 2 16 ]
+[v itoa@base base `i  1 p 2 18 ]
+[v itoa@buf buf `*.4uc  1 a 1 22 ]
+"14
+} 0
+"17
+[v _utoa utoa `(*.4uc  1 e 1 0 ]
+{
+[v utoa@buf buf `*.4uc  1 a 1 wreg ]
+"19
+[v utoa@v v `ui  1 a 2 12 ]
+"20
+[v utoa@c c `uc  1 a 1 14 ]
+"17
+[v utoa@buf buf `*.4uc  1 a 1 wreg ]
+[v utoa@val val `ui  1 p 2 7 ]
+[v utoa@base base `i  1 p 2 9 ]
+"22
+[v utoa@buf buf `*.4uc  1 a 1 15 ]
+"37
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwmod@counter counter `uc  1 a 1 5 ]
+"5
+[v ___lwmod@divisor divisor `ui  1 p 2 0 ]
+[v ___lwmod@dividend dividend `ui  1 p 2 2 ]
+"25
+} 0
+"5 C:\Program Files (x86)\Microchip\xc8\v2.10\pic\sources\c90\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+{
+"10
+[v ___lwdiv@quotient quotient `ui  1 a 2 4 ]
+"11
+[v ___lwdiv@counter counter `uc  1 a 1 6 ]
+"5
+[v ___lwdiv@divisor divisor `ui  1 p 2 0 ]
+[v ___lwdiv@dividend dividend `ui  1 p 2 2 ]
+"30
+} 0
+"102 F:\solar cell project\code\Solar energy measurement.X\LCD.c
+[v _LCD_displayString LCD_displayString `(v  1 e 1 0 ]
+{
+"104
+[v LCD_displayString@i i `uc  1 a 1 5 ]
+"102
+[v LCD_displayString@data data `*.26uc  1 p 2 2 ]
+"110
+} 0
+"66
+[v _LCD_displayCharacter LCD_displayCharacter `(v  1 e 1 0 ]
+{
+[v LCD_displayCharacter@character character `uc  1 a 1 wreg ]
+[v LCD_displayCharacter@character character `uc  1 a 1 wreg ]
+"68
+[v LCD_displayCharacter@character character `uc  1 a 1 1 ]
+"101
+} 0
+"12
+[v _LCD_init LCD_init `(v  1 e 1 0 ]
+{
+"32
+} 0
+"33
+[v _LCD_sendCommand LCD_sendCommand `(v  1 e 1 0 ]
+{
+[v LCD_sendCommand@command command `uc  1 a 1 wreg ]
+[v LCD_sendCommand@command command `uc  1 a 1 wreg ]
+"35
+[v LCD_sendCommand@command command `uc  1 a 1 1 ]
+"65
+} 0
+"19 F:\solar cell project\code\Solar energy measurement.X\ADC.c
+[v _ADC_readChannel ADC_readChannel `(us  1 e 2 0 ]
+{
+[v ADC_readChannel@channel channel `uc  1 a 1 wreg ]
+"21
+[v ADC_readChannel@ADC_value ADC_value `us  1 a 2 5 ]
+"19
+[v ADC_readChannel@channel channel `uc  1 a 1 wreg ]
+[v ADC_readChannel@channel channel `uc  1 a 1 4 ]
+"33
+} 0
+"11
+[v _ADC_init ADC_init `(v  1 e 1 0 ]
+{
+"18
+} 0
